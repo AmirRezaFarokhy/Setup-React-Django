@@ -12,6 +12,7 @@ sudo apt install npm
 echo Installing COmpleted!
 
 echo Starting to intall all the react library
+npm init -y
 npm i webpack webpack-cli --save-dev
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 npm i react react-dom --save-dev
